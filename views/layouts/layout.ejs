@@ -11,9 +11,11 @@
 <body>
     BEFORE
     <br>
-    <%- body %>
-        <br>
-        AFTER
+    <%- include('../partials/header.ejs') %>
+        <%- include('../partials/errorMessage') %>
+            <%- body %>
+                <br>
+                AFTER
 
 </body>
 
