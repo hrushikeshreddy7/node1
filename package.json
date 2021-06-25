@@ -2,16 +2,9 @@
   "name": "t",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
   "scripts": {
-    "main": "server.js",
-    "postinstall": "npm run build",
-    "start": "node main",
-    "devStart": "nodemon main"
-  },
-  "engines": {
-    "node": ">=16.2.0",
-    "npm": ">=7.13.0"
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
